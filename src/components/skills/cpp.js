@@ -1,6 +1,5 @@
 import React, {Fragment} from "react";
 import NAVBAR from "./navbar";
-import {  BrowserRouter as Router, Switch } from 'react-router-dom';
 
 const CPP = () => {
     return (

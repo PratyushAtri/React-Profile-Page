@@ -5,7 +5,6 @@ import Basketball from '../Images/Basketball.jfif';
 import Cpp from '../Images/C++.png';
 import cricket from '../Images/Cricket.jfif';
 import HTML from '../Images/html5css3.jfif';
-import Python from '../Images/python.jpg';
 import react from '../Images/React.png';
 
 
