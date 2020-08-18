@@ -9,10 +9,10 @@ const Channel = () => {
             <Navbar active='channel' />
             <div className="container mt-5">
                 <div className="row mt-5">
-                    <div className="col-6 mt-5">
+                    <div className="col-sm-6 mt-5">
                         <img src={Phoenix} alt='Phoenix_Gaming' />
                     </div>
-                    <div className="col-6 mt-5">
+                    <div className="col-sm-6 mt-5">
                         <div className="channel text-center">
                             <h3 className='mb-5' >My Youtube Channel</h3>
                             I also have a YouTube Gaming Channel named <strong>Phoenix Gaming</strong> <br />
