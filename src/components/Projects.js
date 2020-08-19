@@ -24,7 +24,10 @@ const Projects = () => {
                     <div className="card-body">
                         <h5 className="card-title">Marvel Cinematic Universe</h5>
                         <div className="btnprojects">
-                            <p className="alert alert-info">You can Sign Up and watch other people's posts and comment and like them.</p><br />
+                            <p className="alert alert-info">
+                                {/* You can Sign Up and watch other people's posts and comment and like them. */}
+                                This project is in progress. As soon it gets completed this will be updated.
+                                </p><br />
                             {/*<a target='_blank' rel="noopener noreferrer" href="#" className="btn btn-primary">To the Website</a>*/}
                         </div>
                     </div>
