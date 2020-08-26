@@ -14,8 +14,11 @@ const Projects = () => {
                     <div className="card-body">
                         <h5 className="card-title">App Store</h5>
                         <div className="btnprojects">
-                            <p className="alert alert-primary">This is an app that I have made. You can see my other projects in it.</p><br />
-                            <a target='_blank' rel="noopener noreferrer" href="https://pratyushatri.github.io/Store_of_Apps/" className="btn btn-primary">To the App</a>
+                            <p className="alert alert-primary">
+                                {/*This is an app that I have made. You can see my other projects in it.*/}
+                                This project is in progress. As soon it gets completed this will be updated.
+                            </p><br />
+                            {/*<a target='_blank' rel="noopener noreferrer" href="https://pratyushatri.github.io/Store_of_Apps/" className="btn btn-primary">To the App</a>*/}
                         </div>
                     </div>
                 </div>
@@ -25,10 +28,9 @@ const Projects = () => {
                         <h5 className="card-title">Marvel Cinematic Universe</h5>
                         <div className="btnprojects">
                             <p className="alert alert-info">
-                                {/* You can Sign Up and watch other people's posts and comment and like them. */}
-                                This project is in progress. As soon it gets completed this will be updated.
+                                 You can Sign Up and watch other people's posts and comment and like them.
                                 </p><br />
-                            {/*<a target='_blank' rel="noopener noreferrer" href="#" className="btn btn-primary">To the Website</a>*/}
+                            <a target='_blank' rel="noopener noreferrer" href="https://mcu-marvel.herokuapp.com" className="btn btn-primary">To the Website</a>
                         </div>
                     </div>
                 </div>
