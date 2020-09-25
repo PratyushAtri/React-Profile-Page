@@ -15,7 +15,7 @@ const Navbar = ( active ) => {
                 active.active === 'skills' ? <Link to='/Skills' className="btn btn-dark m-2" >Skills</Link> : <Link to='/Skills' className="btn btn-light m-2" >Skills</Link>
             }
             {
-                active.active === 'channel' ? <Link to='/Channel' className='btn btn-dark m-2' >Channel</Link> : <Link to='/Channel' className='btn btn-light m-2' >Channel</Link>
+                active.active === 'channel' ? <Link to='/Social' className='btn btn-dark m-2' >Social Media</Link> : <Link to='/Social' className='btn btn-light m-2' >Social Media</Link>
             }
             {
                 active.active === 'project' ? <Link to='/Projects' className="btn btn-dark m-2" >Projects</Link> : <Link to='/Projects' className="btn btn-light m-2" >Projects</Link>

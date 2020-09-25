@@ -1,9 +1,20 @@
-.black {
-    color: black;
+.yt {
+    font-size: 2rem;
+    color: red;
 }
 
-.black:hover {
-    color: red;
+a {
+    text-decoration: none;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.github {
+    font-size: 2rem;
+    color: #8511c9;
 }
 
 h2 {
