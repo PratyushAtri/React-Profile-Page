@@ -1,7 +1,5 @@
 import React from "react";
-
 import Navbar from "./Navbar";
-
 import ironman from '../Images/ironman.jpg';
 import captainAmerica from '../Images/cap.jpg';
 import thor from '../Images/thor.jpg';

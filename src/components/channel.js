@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-
 import Navbar from "./Navbar"
 import Phoenix from '../Images/logo.jpg';
 
