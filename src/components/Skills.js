@@ -59,9 +59,7 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div className="card-group">
                     <div className="card-flip border-none"/>
                     <div className="card-flip">
                         <div className="card-content">

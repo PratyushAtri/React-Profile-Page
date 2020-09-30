@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = ( active ) => {
     return (
-        <div className="shadow bg-secondary rounded text-center">
+        <div className="shadow bg-secondary rounded text-center navbarr">
             {
                 active.active === 'home' ? <Link to='/' className="btn btn-dark m-2" >Home</Link> : <Link to='/' className="btn btn-light m-2" >Home</Link>
             }
