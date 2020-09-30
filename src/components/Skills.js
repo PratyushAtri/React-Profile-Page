@@ -16,7 +16,7 @@ const Skills = () => {
                     <div className="card-content">
                         <div className="card-front">
                             <img src={mern} alt="html" className='card-img'/>
-                            <h2 className="card-title">MERN Stack</h2>
+                            <h2 className="card-title blue">MERN Stack</h2>
                         </div>
                         <div className="card-back pt-5">
                             Recently I have started doing MERN Stack
@@ -31,7 +31,7 @@ const Skills = () => {
                         <div className="card-content">
                             <div className="card-front">
                                 <img src={sass} alt="html" className='card-img'/>
-                                <h2 className="card-title">Sass</h2>
+                                <h2 className="card-title blue">Sass</h2>
                             </div>
                             <div className="card-back pt-5">
                                 Recently I have started doing Sass
@@ -46,7 +46,7 @@ const Skills = () => {
                         <div className="card-content">
                             <div className="card-front">
                                 <img src={HTML} alt="html" className='card-img'/>
-                                <h2 className="card-title">HTML, CSS & JS</h2>
+                                <h2 className="card-title blue">HTML, CSS & JS</h2>
                             </div>
                             <div className="card-back pt-5">
                                 These three were the first languages that
@@ -65,7 +65,7 @@ const Skills = () => {
                         <div className="card-content">
                             <div className="card-front">
                                 <img src={socket} alt="html" className='card-img'/>
-                                <h2 className="card-title">Socket io</h2>
+                                <h2 className="card-title blue">Socket io</h2>
                             </div>
                             <div className="card-back pt-5">
                                 I am not much familiar with socket.io

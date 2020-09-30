@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div className="about text-center">
             <Navbar active='about' />
-            <h2 className='mt-5'>Myself</h2>
+            <h2 className='mt-5 title'>Myself</h2>
             I am Pratyush Atri. I study in class 7th in Ryan International School. I was born on 16 February 2009.<br />
             My favourite food is Pizza. My favourite colour is Black. I also to programming in <br />
             MERN Stack, HTML & CSS, Sass, Socket.io . I am a vegetarian and<br />

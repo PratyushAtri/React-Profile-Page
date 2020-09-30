@@ -13,7 +13,7 @@ const Channel = () => {
                     </div>
                     <div className="col-md-6 mt-5">
                         <div className="channel text-center">
-                            <h3 className='mb-5' >My Youtube Channel</h3>
+                            <h3 className='mb-5 title' >My Youtube Channel</h3>
                             I also have a YouTube Gaming Channel named <strong>Phoenix Gaming</strong> <br />
                             <strong>
                                 <a target='_blank' rel="noopener noreferrer" href='https://www.youtube.com/channel/UCAUWt7pXZh0bZjB4Z1814YQ' className='yt' >
@@ -29,7 +29,7 @@ const Channel = () => {
                     </div>
                     <div className="col-md-6 mt-5">
                         <div className="channel text-center">
-                            <h3 className='mb-5' >My Github Repo</h3>
+                            <h3 className='mb-5 title' >My Github Repo</h3>
                             You can find all my repositories on Github including this ProfilePage. <br/>
                             My Github username is <strong>PratyushAtri</strong> <br />
                             <strong>

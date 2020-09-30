@@ -1,6 +1,22 @@
+* {
+    background-color: #424244;
+}
+
+.title {
+    color: #e2891f;
+}
+
+.blue {
+    color: #2edcd7;
+}
+
+body {
+    color: #dbd9d9;
+}
+
 .yt {
     font-size: 2rem;
-    color: red;
+    color: #ff0000;
 }
 
 .yt:hover {
@@ -19,11 +35,11 @@ ul {
 
 .github {
     font-size: 2rem;
-    color: #8511c9;
+    color: #9320d7;
 }
 
 .github:hover {
-    color: #8511c9;
+    color: #9320d7;
 }
 
 h2 {
@@ -119,7 +135,7 @@ h2 {
 
 .border-none {
     border: none;
-    background-color: white;
+    background-color: #424244;
 }
 
 @media (max-width: 996px) {

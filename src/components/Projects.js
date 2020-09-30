@@ -10,7 +10,7 @@ const Projects = () => {
             <div className="card-group">
                 <div className="card">
                     <div className="card-body">
-                        <h5 className="card-title">Marvel Cinematic Universe</h5>
+                        <h5 className="card-title blue">Marvel Cinematic Universe</h5>
                         <div className="btnprojects">
                             <p className="alert alert-info">
                                 You can Sign Up and watch other people's posts and comment and like them.
@@ -22,7 +22,7 @@ const Projects = () => {
 
                 <div className="card">
                     <div className="card-body">
-                        <h5 className="card-title">CSS Library</h5>
+                        <h5 className="card-title blue">CSS Library</h5>
                         <div className="btnprojects">
                             <p className="alert alert-info">
                                 A small CSS Library just like Bootstrap 5 made with Sass.
@@ -36,7 +36,7 @@ const Projects = () => {
             <div className="card-group" id="two">
                 <div className="card">
                     <div className="card-body">
-                        <h5 className="card-title">Budget App</h5>
+                        <h5 className="card-title blue">Budget App</h5>
                         <div className="btnprojects">
                             <p className="alert alert-info">Add expenses & income to your list this will calculate your budget</p><br />
                             <a target='_blank' rel="noopener noreferrer" href="https://pratyushatri.github.io/BudgetApp" className="btn btn-primary">Use Now</a>
@@ -46,7 +46,7 @@ const Projects = () => {
 
                 <div className="card">
                     <div className="card-body">
-                        <h5 className="card-title">Calculator</h5>
+                        <h5 className="card-title blue">Calculator</h5>
                         <div className="btnprojects">
                             <p className="alert alert-info">A basic calculator that I have made with JavaScript</p><br />
                             <a target='_blank' rel="noopener noreferrer" href="https://pratyushatri.github.io/Calculator/" className="btn btn-primary">Use Now</a>
