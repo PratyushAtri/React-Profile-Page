@@ -60,6 +60,10 @@ h2 {
     margin: 0 3rem;
 }
 
+.card-half {
+    width: 9rem;
+}
+
 .card-flip {
     position: relative;
     display: -ms-flexbox;
@@ -120,6 +124,15 @@ h2 {
     padding: 2rem 0 0 0;
 }
 
+.card-flip .card-content .card-front .card-desc {
+    font-size: 0.9rem;
+    margin-top: 3px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2rem 0 0 0;
+}
+
 .card-flip .card-content .card-back {
     text-align: center;
     margin-top: 2rem;
@@ -131,6 +144,11 @@ h2 {
 .card-flip:hover .card-content {
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
+}
+
+.card-flip .card-content .card-back span .btn {
+    width: 100%;
+    margin-bottom: 1rem;
 }
 
 .border-none {
