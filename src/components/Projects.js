@@ -58,7 +58,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="card-half"></div>
-                    <div className="card-flip">
+                    {/* <div className="card-flip">
                         <div className="card-content">
                             <div className="card-front">
                                 <h2 className="card-title blue">Calculator</h2>
@@ -73,7 +73,7 @@ const Projects = () => {
                             </span>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="card-flip">
                         <div className="card-content">
                             <div className="card-front">
