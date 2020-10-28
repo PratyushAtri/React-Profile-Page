@@ -14,15 +14,6 @@ body {
     color: #dbd9d9;
 }
 
-.yt {
-    font-size: 2rem;
-    color: #ff0000;
-}
-
-.yt:hover {
-    color: red;
-}
-
 a,
 a:hover {
     text-decoration: none;
@@ -40,6 +31,15 @@ ul {
 
 .github:hover {
     color: #9320d7;
+}
+
+.linkedin {
+    font-size: 2rem;
+    color: #5656f3;
+}
+
+.linkedin:hover {
+    color: #5656f3;
 }
 
 h2 {
@@ -124,6 +124,7 @@ h2 {
     padding: 2rem 0 0 0;
 }
 
+
 .card-flip .card-content .card-front .card-desc {
     font-size: 0.9rem;
     margin-top: 3px;
@@ -195,4 +196,31 @@ h2 {
         padding: 0;
     }
 
+}
+
+.card-empty {
+    position: relative;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    width: 18rem;
+    height: 17rem;
+    word-wrap: break-word;
+    background-color: #424244;
+    background-clip: border-box;
+    border: 3px solid #424244;
+    border-radius: 0.25rem;
+    margin: 1rem;
+    padding: 0;
+    text-align: center;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+
+.media-img {
+    height: 250px;
 }

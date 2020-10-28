@@ -3,6 +3,7 @@ import HTML from '../Images/html5css3.jfif';
 import mern from '../Images/mern.png';
 import sass from '../Images/sass.jpg';
 import socket from '../Images/socketio.jpg';
+import cpp from '../Images/cpp.png';
 
 import Navbar from "./Navbar";
 
@@ -60,7 +61,7 @@ const Skills = () => {
                         </div>
                     </div>
 
-                    <div className="card-flip border-none"/>
+                    <div className="card-half"/>
                     <div className="card-flip">
                         <div className="card-content">
                             <div className="card-front">
@@ -81,7 +82,23 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="card-flip border-none"/>
+                    <div className="card-flip">
+                        <div className="card-content">
+                            <div className="card-front">
+                                <img src={cpp} alt="html" className='card-img'/>
+                                <h2 className="card-title blue">C++</h2>
+                            </div>
+                            <div className="card-back pt-5">
+                                C++ is the basic language of programming,
+                                <br/>
+                                you can see some of my C++ Projects on{' '}
+                                <span>
+                                    <a href="https://github.com/PratyushAtri/Cpp" target='_blank' rel='noreferrer noopener' className='text-primary' >Cpp</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="card-half"/>
                 </div>
             </div>
         </div>

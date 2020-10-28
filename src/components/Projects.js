@@ -57,23 +57,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="card-half"></div>
-                    {/* <div className="card-flip">
-                        <div className="card-content">
-                            <div className="card-front">
-                                <h2 className="card-title blue">Calculator</h2>
-                                <p className='card-desc'    >
-                                    A basic Calculator with HTML, CSS & JS.
-                                </p>
-                            </div>
-                            <div className="card-back pt-5 container-fluid">
-                            <span>
-                                <a href="https://github.com/PratyushAtri/Calculator" target='_blank' rel='noreferrer noopener' className='btn btn-light' >Link To Code</a>
-                                <a href="https://pratyushatri.github.io/Calculator/" target='_blank' rel='noreferrer noopener' className='btn btn-success' >Visit site</a>
-                            </span>
-                            </div>
-                        </div>
-                    </div> */}
+                    <div className="card-empty"/>
                     <div className="card-flip">
                         <div className="card-content">
                             <div className="card-front">
@@ -90,7 +74,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="card-half"></div>
+                    <div className="card-empty"/>
                 </div>
             </div>
         </div>

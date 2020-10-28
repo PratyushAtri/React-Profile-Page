@@ -7,7 +7,7 @@ import About from "./components/About";
 import Home from "./components/Home";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
-import Channel from "./components/channel";
+import Media from "./components/media";
 
 // CSS
 import './App.css';
@@ -21,7 +21,7 @@ const App = () => {
                           <Route exact path='/About' component={ About }/>
                           <Route exact path='/Skills' component={ Skills }/>
                           <Route exact path='/Projects' component={ Projects }/>
-                          <Route exact path='/Social' component={ Channel }/>
+                          <Route exact path='/Social' component={ Media }/>
                       </Switch>
               </Fragment>
           </Router>
